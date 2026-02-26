@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Historia Clinica</title>
+    <style>
+        main{
+            display:grid;
+            width: 100%;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<center>
+<img src="https://eliseovega.github.io/imgh/dental_clinic.svg" width="100">
+<h1>Clinica Dental</h1>
+<h2>Historia Clinica</h2>
+</center>
+
+<body>
+   <main>
+    <h1>DATOS DEL PACIENTE</h1>
+    <form>
+        <label for="inDNI">DNI</label><br>
+        <input type="text" id="inDNI"><br>
+        <label for="inFoto">foto</label> <br>
+        <input type="file"id="inFoto"> <br>
+        <label for="inNombres">Nombres</label> <br>
+        <input type="text" id="inNombres"> <br>
+        <label  for="inApellidos">Apellidos</label> <br>
+        <input type="text" id="inApellidos"> <br>
+        <label  for="inFechaNacimiento">fecha</label> <br>
+        <input type="date"> <br>
+        <label for="inSexo"></label> <br>
+       Sexo:<br>
+       <input type="radio" name="sexo"> Masculino
+       <input type="radio" name="sexo"> Femenino
+       <br><br>
+       Telefono:<br>
+       <input type="text"><br><br>
+       Direccion:<br>
+       <textarea></textarea><br><br>
+       Pais:<br>
+       <select>
+       <option>Colombia</option>
+       <option>Venezuela</option>
+       <option>Peru</option>
+       </select>
+       <br><br>
+    
+        </tr>
+
+            <tr> <br>
+                <td><label>Sala</label></td> <br>
+                <td>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Emergencia</option>
+                        <option>Sala A</option>
+                        <option>Laboratorio</option>
+                        <option>Rayos X</option>
+                        <option>Hospitalización</option>
+                    </select>
+                </td>
+            </tr>
+            
+            
+            <tr> <br>
+                <td><label>Estado Civil</label></td> <br>
+                <td>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Soltero</option>
+                        <option>Casado</option>
+                        <option>Viudo</option>
+                        <option>Unión Libre</option>
+                        <option>Separado</option>
+                        <option>Divorciado</option>
+                    </select>
+                </td>
+            </tr>
+            <tr> <br>
+                <td><label>Grupo Sanguíneo</label></td> <br>
+                <td>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                    </select>
+                </td>
+            </tr>
+               <tr><br>
+                <td><label>VIH</label></td> <br>
+                <td>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Si</option>
+                        <option>No</option>
+                    </select>
+                </td>
+            </tr>
+             <tr> <br>
+                <td><label>Alérgico</label></td><br>
+                <td><textarea rows="2"></textarea></td>
+     <div class="botones">
+            <input type="submit" value="Registrar">
+            <input type="reset" value="Limpiar">
+        </div>
+    </form>
+   </main>
+
+</body>
+</html>
